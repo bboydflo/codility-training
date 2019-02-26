@@ -44,12 +44,22 @@ P[2] = 0 Q[2] = 6
 
 the function should return the values[2, 4, 1], as explained above.
 
-Write an efficient algorithm
-for the following assumptions:
+Write an efficient algorithm for the following assumptions:
 
-N is an integer within the range[1. .100, 000];
-M is an integer within the range[1. .50, 000];
-each element of arrays P, Q is an integer within the range[0..N− 1];
-P[K]≤ Q[K], where 0≤ K < M;
+N is an integer within the range[1 -> 100000];
+M is an integer within the range[1 -> 50000];
+each element of arrays P, Q is an integer within the range[0 -> N− 1];
+P[K] ≤ Q[K], where 0 ≤ K < M;
 string S consists only of upper - case English letters A, C, G, T.
 */
+
+export function solution(S, P, Q) {
+
+}
+
+export const testData = [
+  {
+    in: null,
+    out: 1
+  }
+]

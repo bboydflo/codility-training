@@ -62,7 +62,6 @@ export function solution(X, A) {
     if (!posObj[A[i]]) {
       posObj[A[i]] = i
       let dist = Object.keys(posObj).length
-
       if (dist >= X && posObj.hasOwnProperty(X)) {
         return i
       }

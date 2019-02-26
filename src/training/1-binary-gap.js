@@ -14,7 +14,7 @@ Write a function:
 int solution(int N);
 
 that, given a positive integer N, returns the length of its longest binary gap.The
-function should return 0 if N doesn 't contain a binary gap.
+function should return 0 if N doesn't contain a binary gap.
 
 For example, given N = 1041 the function should return 5, because N has binary
 representation 10000010001 and so its longest binary gap is of length 5.
@@ -44,7 +44,7 @@ export const solution = (n) => {
   return biggestMatch.length
 }
 
-export const data = [
+export const testData = [
   {
     in: 1041,
     out: 5
@@ -59,7 +59,7 @@ export const data = [
   },
   {
     in: 1,
-    out: 1
+    out: 0
   }
 ]
 
